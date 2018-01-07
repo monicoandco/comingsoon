@@ -53,3 +53,21 @@ p {
 .behance img {
   max-width: 2.5rem;
 }
+
+@media only screen and (max-width: 830px) {
+    p {
+      font-size: 1rem;
+    }
+    img {
+      width: 60%;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    p {
+      font-size: 1rem;
+    }
+    img {
+      width: 25%;
+    }
+}
