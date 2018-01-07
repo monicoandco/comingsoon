@@ -1,37 +1,55 @@
-.flex-container {
+html, body {
+  height: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.plant-image {
+  background-image: url(../images/Plant_Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.container {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  min-height: 1000px;
-  height: 100%;
   flex-wrap: wrap;
-  background-image: url(../images/Plant_Background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-size: 16px;
+  width: 100%;
 }
 
+.content {
+  display: flex;
+  margin-top: 10rem;
+  display: block;
+  width: 50rem;
+  height: auto;
+  justify-content: center;
+}
+
+
 img {
+  display: block;
   opacity: .77;
-  width: 50%;
+  width: 95%;
   height: auto;
   Padding: 25px;
+  margin: auto;
 }
 
 p {
+  text-align: center;
   opacity: .77;
   display: block;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: 400px;
+  font-size: 2rem;
+  font-weight: 400;
   font-family: 'Raleway', sans-serif;
   color: #d5a453;
   letter-spacing: 15px;
 }
 
 .behance img {
-  max-width: 30px;
-  min-width: 25px;
+  max-width: 2.5rem;
 }
